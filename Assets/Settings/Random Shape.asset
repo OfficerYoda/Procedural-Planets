@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ecfc4f3b88c6b64e926a78513507e52, type: 3}
+  m_Name: Random Shape
+  m_EditorClassIdentifier: 
+  seed: 0
+  planetRadius: 10
+  noiseLayers:
+  - enabled: 1
+    useFirstLayerAsMask: 1
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 0.18425131
+        numLayers: 3
+        baseRoughness: 0.51205945
+        roughness: 3.3025448
+        persistence: 0.4516641
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.91049457
+      rigidNoiseSettings:
+        strength: 0.18425131
+        numLayers: 3
+        baseRoughness: 0.51205945
+        roughness: 3.3025448
+        persistence: 0.4516641
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.91049457
+        weightMultiplier: 1.9769082
+  - enabled: 1
+    useFirstLayerAsMask: 1
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 1.2921034
+        numLayers: 3
+        baseRoughness: 0.61383176
+        roughness: 2.3338523
+        persistence: 0.4789885
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.7582535
+      rigidNoiseSettings:
+        strength: 1.2921034
+        numLayers: 3
+        baseRoughness: 0.61383176
+        roughness: 2.3338523
+        persistence: 0.4789885
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.7582535
+        weightMultiplier: 1.8817806
